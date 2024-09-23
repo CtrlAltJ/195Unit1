@@ -1,0 +1,104 @@
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+* {
+  outline: 1px solid red;
+}
+
+/*
+ * #343c4a - dark blue-gray - RGB(52, 60, 74)
+ * #eae0c8 - pearl - RGB(234, 224, 200)
+ * 
+ */
+
+
+/* Style rules for body / background */
+
+body {
+  background-color: rgba(52, 60, 74, .72);
+  color: #eae0c8;
+  width: 90%;
+  margin: auto;
+  min-height: 100vh;
+}
+
+html {
+  background-image: linear-gradient(to bottom, black, rgb(39, 45, 74));
+  background-color: black;
+  min-height: 100%;
+  width: 100%;
+}
+
+
+/* Style rules for header */
+
+header {
+  text-align: center;
+  margin: auto;
+  font-weight: 100;
+  font-size: 2em;
+  display: block;
+}
+
+
+/* Style rules for nav */
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #343c4a;
+  background-color: #eae0c8;
+  text-decoration: none;
+  padding: 2em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+
+/* Style rules for main content */
+
+main {
+  padding-bottom: 2%;
+  overflow: auto;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 5%;
+}
+
+.column img
+{
+  display: block;
+  width: 100%;
+}
+
+.column h2
+{
+  font-weight: bold;
+}
+
+#foot {
+  clear: both;
+  padding: 5%;
+  margin: auto;
+}
